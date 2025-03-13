@@ -1,4 +1,6 @@
+
 {
+  "npmInstallFlags": ["--legacy-peer-deps"],
   "license": "0BSD",
   "main": "index.js",
   "scripts": {
