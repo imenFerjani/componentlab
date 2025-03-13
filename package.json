@@ -9,7 +9,7 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "build": "expo export:web"
+    "build": "mkdir -p web-build && echo '<html><head><title>ComponentLab</title><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><style>body{font-family:system-ui,-apple-system,sans-serif;max-width:800px;margin:0 auto;padding:20px;line-height:1.6;color:#333}</style></head><body><h1>ComponentLab Mobile App</h1><p>This React Native component showcase is designed primarily for mobile devices.</p><p>To view the app:</p><ol><li>Download the Expo Go app on your mobile device</li><li>Scan the QR code from the <a href=\"https://expo.dev/@imen_ferjani/snack-36636d0f-3cf9-4be9-892c-86d90c8aa986\">Expo deployment</a></li></ol><p><a href=\"https://github.com/imenFerjani/componentlab\">View on GitHub</a></p></body></html>' > web-build/index.html"
   },
   "dependencies": {
     "@expo/metro-runtime": "~4.0.1",
