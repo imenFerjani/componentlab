@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "componentlab",
+    "slug": "snack-36636d0f-3cf9-4be9-892c-86d90c8aa986",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "ComponentLab is an interactive showcase of essential React Native components built with Expo. This educational app provides a comprehensive library of UI elements, layouts, and animations with live demonstrations and editable code examples. Designed for both beginners learning React Native fundamentals and experienced developers seeking component reference, ComponentLab offers a hands-on approach to understanding mobile UI development. Each component is thoroughly documented with props, usage patterns, and implementation details, allowing users to explore and experiment with the building blocks of React Native applications in a single, well-organized interface.",
+    "extra": {
+      "eas": {
+        "projectId": "79afe63c-af8b-45ad-b1c7-df6e95c8c6e8"
+      }
+    }
+  }
+}
