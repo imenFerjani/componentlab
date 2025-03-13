@@ -11,25 +11,24 @@
     "web": "expo start --web",
     "build": "mkdir -p web-build && echo '<html><head><title>ComponentLab</title><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><style>body{font-family:system-ui,-apple-system,sans-serif;max-width:800px;margin:0 auto;padding:20px;line-height:1.6;color:#333}</style></head><body><h1>ComponentLab Mobile App</h1><p>This React Native component showcase is designed primarily for mobile devices.</p><p>To view the app:</p><ol><li>Download the Expo Go app on your mobile device</li><li>Scan the QR code from the <a href=\"https://expo.dev/@imen_ferjani/snack-36636d0f-3cf9-4be9-892c-86d90c8aa986\">Expo deployment</a></li></ol><p><a href=\"https://github.com/imenFerjani/componentlab\">View on GitHub</a></p></body></html>' > web-build/index.html"
   },
-  "dependencies": {
-    "@expo/metro-runtime": "~4.0.1",
-    "@expo/vector-icons": "^14.0.2",
-    "@expo/webpack-config": "^18.1.4",
-    "@react-native-community/slider": "4.5.5",
-    "@react-navigation/native": "*",
-    "@react-navigation/native-stack": "*",
-    "expo": "~52.0.38",
-    "expo-clipboard": "~7.0.1",
-    "expo-status-bar": "~2.0.1",
-    "expo-updates": "~0.27.3",
-    "react": "18.3.1",
-    "react-dom": "^18.3.1",
-    "react-native": "0.76.7",
-    "react-native-paper": "4.9.2",
-    "react-native-safe-area-context": "4.12.0",
-    "react-native-screens": "~4.4.0",
-    "react-native-web": "^0.19.13"
-  },
+  {
+    "dependencies": {
+      "@expo/metro-runtime": "~2.2.0",
+      "@expo/vector-icons": "^13.0.0",
+      "@expo/webpack-config": "^18.0.1",
+      "@react-native-community/slider": "4.4.2",
+      "expo": "~50.0.4",
+      "expo-clipboard": "~5.0.1",
+      "expo-status-bar": "~1.11.1",
+      "expo-updates": "~0.24.8",
+      "react": "18.2.0",
+      "react-dom": "18.2.0",
+      "react-native": "0.73.2",
+      "react-native-web": "~0.19.6",
+      "react-native-safe-area-context": "4.8.2",
+      "react-native-screens": "~3.29.0"
+    }
+  }
   "devDependencies": {
     "@babel/core": "^7.20.0"
   },
